@@ -1,0 +1,14 @@
+{
+  "evaluation_type": "random_stratified_holdout",
+  "test_size": 5102,
+  "accuracy": 0.9957,
+  "accuracy_percent": 99.57,
+  "confusion_matrix": [
+    [2535, 15],
+    [7, 2545]
+  ],
+  "real_support": 2550,
+  "fake_support": 2552,
+  "important_caveat": "Random split; cross-speaker and cross-generator generalization not yet established."
+}
+

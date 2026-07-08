@@ -1,0 +1,38 @@
+{
+  "sample_rate": 16000,
+  "analysis_seconds": 5.0,
+  "feature_count": 227,
+  "groups": [
+    {
+      "name": "mfcc_mean",
+      "label": "MFCC mean",
+      "start": 0,
+      "end": 40
+    },
+    {
+      "name": "mfcc_std",
+      "label": "MFCC variability",
+      "start": 40,
+      "end": 80
+    },
+    {
+      "name": "chroma_mean",
+      "label": "Chroma",
+      "start": 80,
+      "end": 92
+    },
+    {
+      "name": "mel_mean",
+      "label": "Mel-spectrum",
+      "start": 92,
+      "end": 220
+    },
+    {
+      "name": "spectral_contrast_mean",
+      "label": "Spectral contrast",
+      "start": 220,
+      "end": 227
+    }
+  ]
+}
+

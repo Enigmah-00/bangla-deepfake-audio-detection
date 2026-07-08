@@ -1,0 +1,16 @@
+flowchart LR
+    A[Upload or record audio] --> B[Validate file]
+    B --> C[Decode audio]
+    C --> D[Mono 16 kHz]
+    D --> E[First 5 seconds]
+    E --> F[Extract 227 features]
+    F --> G[Saved StandardScaler]
+    G --> H[Saved XGBoost classifier]
+    H --> I[Fake and real probabilities]
+    I --> J[Three-way decision]
+    F --> K[Grouped acoustic evidence]
+    C --> L[Waveform and spectrogram]
+    J --> M[JSON report and UI result]
+    K --> M
+    L --> M
+

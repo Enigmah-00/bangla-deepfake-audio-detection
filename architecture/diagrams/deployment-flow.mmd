@@ -1,0 +1,8 @@
+flowchart LR
+    U[User browser] --> V[Vercel Next.js frontend]
+    V -->|POST /api/analyze| R[Railway FastAPI backend]
+    R --> S[src modules]
+    S --> M[models/*.joblib]
+    R -->|JSON + charts| V
+    V --> D[Download JSON report]
+

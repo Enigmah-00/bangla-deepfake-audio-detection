@@ -128,13 +128,22 @@ frontend/
 src/
 tests/
 scripts/
+architecture/
+docs/
+output/pdf/
 models/
 notebooks/
 examples/
 assets/
 artifacts/
-docs/
 ```
+
+## Submission Documents
+
+- Project report PDF: `output/pdf/KonthoProhori_Project_Report.pdf`
+- Model and data card PDF: `output/pdf/KonthoProhori_Model_Data_Card.pdf`
+- Architecture package: `architecture/`
+- Deliverable checklist: `docs/SUBMISSION_DELIVERABLES.md`
 
 ## Privacy And Ethics
 
@@ -160,4 +169,3 @@ TBD.
 ## License
 
 TBD by the team. Third-party dataset and library licenses must be confirmed before final public submission.
-

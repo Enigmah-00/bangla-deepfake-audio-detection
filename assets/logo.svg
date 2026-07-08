@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="720" height="180" viewBox="0 0 720 180" role="img" aria-labelledby="title desc">
+  <title id="title">KonthoProhori logo</title>
+  <desc id="desc">A shield mark with waveform bars and the KonthoProhori wordmark.</desc>
+  <rect width="720" height="180" rx="8" fill="#ffffff"/>
+  <path d="M90 24l54 20v42c0 36-20 56-54 72-34-16-54-36-54-72V44l54-20z" fill="#0f766e"/>
+  <path d="M66 93h10v-26h-10v26zm18 18h10V50H84v61zm18-9h10V64h-10v38zm18-17h10V73h-10v12z" fill="#ffffff"/>
+  <text x="174" y="80" font-family="Inter, Arial, sans-serif" font-size="40" font-weight="800" fill="#18212f">KonthoProhori</text>
+  <text x="176" y="116" font-family="Inter, Arial, sans-serif" font-size="20" fill="#64748b">Bangla Deepfake Audio Detection</text>
+</svg>
